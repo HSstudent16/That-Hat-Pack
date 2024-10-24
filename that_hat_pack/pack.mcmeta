@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 57,
+    "description": [
+      {
+        "text": "THAT HAT PACK ",
+        "color": "yellow",
+        "bold": true
+      },
+      {
+        "text": "by hmwbte",
+        "color": "gray",
+        "italic": true,
+        "bold": false
+      }
+    ]
+  }
+}
