@@ -2,16 +2,14 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "!minecraft:equippable": {}
+            "!minecraft:equippable": {},
+            "!minecraft:custom_data": {}
         }
+
     },
     {
         "function": "minecraft:set_lore",
-        "mode": "replace_all",
-        "lore": [""]
-    },
-    {
-        "function": "set_custom_data",
-        "tag": "{\"isHat\":0}"
+        "lore": [],
+        "mode": "replace_all"
     }
 ]
