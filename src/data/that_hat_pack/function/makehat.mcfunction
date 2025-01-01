@@ -1,4 +1,4 @@
-tellraw @s {"text":"[Created new hat!]","color":"yellow"}
+tellraw @s {"text":"[Created new hat!]","color":"green"}
 
 # item modifiers!
 item modify entity @s weapon.mainhand that_hat_pack:make_hat

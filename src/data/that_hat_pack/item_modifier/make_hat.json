@@ -5,7 +5,7 @@
             "minecraft:equippable": {
                 "slot": "head",
                 "equip_sound": {
-                    "sound_id": "minecraft:entity.firework_rocket.launch",
+                    "sound_id": "minecraft:item.armor.equip_leather",
                     "range": 1.0,
                     "pitch": 0.5
                 }

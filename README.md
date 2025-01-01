@@ -9,3 +9,9 @@ Now that item is equippable onto your head slot!  If you ever want to remove the
 /trigger unhat
 ```
 And that's it!
+
+## Changes
+
+ - Will now ask for confirmation before turning an item with lore or custom data into a hat
+ - Removes the lore & custom data tags entirely when unmaking a hat, so that ex-hats stack with normal items
+ - Removed update function since it is no longer needed
