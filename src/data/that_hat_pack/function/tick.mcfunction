@@ -1,8 +1,5 @@
 schedule function that_hat_pack:tick 5t
 
-# Allow HMWBTE to migrate his singleplayer world, which used an older scoreboard system
-execute as HMWBTE if score @s update matches 1.. run function that_hat_pack:update
-
 # Check for triggers to make hat and unhat
 execute as @a[scores={makehat=1}] if items entity @s weapon.mainhand * unless items entity @s weapon.mainhand #minecraft:head_armor run function that_hat_pack:confirm_makehat
 
