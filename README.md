@@ -10,8 +10,8 @@ Now that item is equippable onto your head slot!  If you ever want to remove the
 ```
 And that's it!
 
-## Changes
+## Recent Changes
 
- - Will now ask for confirmation before turning an item with lore or custom data into a hat
- - Removes the lore & custom data tags entirely when unmaking a hat, so that ex-hats stack with normal items
- - Removed update function since it is no longer needed
+ - Updated to 1.21.5; Datapack is backward compatible until 1.21.2
+ - Fixed a spelling mistake
+ - Removed unused scoreboard
