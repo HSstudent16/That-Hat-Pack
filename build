@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd ./src
+rm ../that_hat_pack_*.zip
+
+zip -rq ../that_hat_pack_1.21.2-1.21.6.zip *
