@@ -1,0 +1,15 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "!minecraft:equippable": {},
+            "!minecraft:custom_data": {}
+        }
+
+    },
+    {
+        "function": "minecraft:set_lore",
+        "lore": [],
+        "mode": "replace_all"
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:equippable": {
+                "slot": "head",
+                "equip_sound": {
+                    "sound_id": "minecraft:item.armor.equip_leather",
+                    "range": 1.0,
+                    "pitch": 0.5
+                }
+            }
+        }
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "mode": "replace_all",
+        "lore": [
+            {
+                "text": "[",
+                "color": "dark_purple",
+                "italic": true,
+                "extra": [
+                    {
+                        "selector": "@s",
+                        "color": "dark_purple",
+                        "type": "selector",
+                        "italic": true
+                    },
+                    {
+                        "text": "'s Hat]",
+                        "color": "dark_purple",
+                        "italic": true
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "function": "set_custom_data",
+        "tag": "{\"isHat\":1}"
+    }
+]
